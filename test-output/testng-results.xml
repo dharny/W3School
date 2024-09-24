@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T15:31:03Z" name="Suite" finished-at="2024-09-23T15:31:41Z" duration-ms="38696">
+    <groups>
+      <group name="navbar">
+        <method signature="NavBar.navbar_plus()[pri:10, instance:com.W3School.NavBar@673be18f]" name="navbar_plus" class="com.W3School.NavBar"/>
+        <method signature="NavBar.navbar_services()[pri:10, instance:com.W3School.NavBar@673be18f]" name="navbar_services" class="com.W3School.NavBar"/>
+        <method signature="NavBar.navbar_tutorials()[pri:8, instance:com.W3School.NavBar@673be18f]" name="navbar_tutorials" class="com.W3School.NavBar"/>
+      </group> <!-- navbar -->
+      <group name="Main">
+        <method signature="Home.LaunchingApplication(java.lang.String)[pri:2, instance:com.W3School.Home@13ad5cd3]" name="LaunchingApplication" class="com.W3School.Home"/>
+        <method signature="Home.LaunchingApplication(java.lang.String)[pri:2, instance:com.W3School.NavBar@673be18f]" name="LaunchingApplication" class="com.W3School.Home"/>
+      </group> <!-- Main -->
+      <group name="home">
+        <method signature="Home.Dark_mode()[pri:6, instance:com.W3School.Home@13ad5cd3]" name="Dark_mode" class="com.W3School.Home"/>
+        <method signature="Home.Dark_mode()[pri:6, instance:com.W3School.NavBar@673be18f]" name="Dark_mode" class="com.W3School.Home"/>
+        <method signature="Home.all_nav_elements()[pri:7, instance:com.W3School.Home@13ad5cd3]" name="all_nav_elements" class="com.W3School.Home"/>
+        <method signature="Home.all_nav_elements()[pri:7, instance:com.W3School.NavBar@673be18f]" name="all_nav_elements" class="com.W3School.Home"/>
+        <method signature="Home.test(java.lang.String)[pri:4, instance:com.W3School.Home@13ad5cd3]" name="test" class="com.W3School.Home"/>
+        <method signature="Home.test(java.lang.String)[pri:4, instance:com.W3School.NavBar@673be18f]" name="test" class="com.W3School.Home"/>
+      </group> <!-- home -->
+    </groups>
+    <test started-at="2024-09-23T15:31:03Z" name="Test" finished-at="2024-09-23T15:31:41Z" duration-ms="38696">
+      <class name="com.W3School.Home">
+        <test-method signature="LaunchingApplication(java.lang.String)[pri:2, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:03Z" name="LaunchingApplication" finished-at="2024-09-23T21:01:09Z" duration-ms="6094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:13Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:13Z" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTML]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:13Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:14Z" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:14Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:14Z" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAVASCRIPT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="Dark_mode()[pri:6, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:15Z" name="Dark_mode" finished-at="2024-09-23T21:01:19Z" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dark_mode -->
+        <test-method signature="all_nav_elements()[pri:7, instance:com.W3School.Home@13ad5cd3]" started-at="2024-09-23T21:01:19Z" name="all_nav_elements" finished-at="2024-09-23T21:01:21Z" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_nav_elements -->
+      </class> <!-- com.W3School.Home -->
+      <class name="com.W3School.NavBar">
+        <test-method signature="LaunchingApplication(java.lang.String)[pri:2, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:09Z" name="LaunchingApplication" finished-at="2024-09-23T21:01:13Z" duration-ms="3738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:14Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:14Z" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTML]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:14Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:15Z" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:4, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:15Z" name="test" data-provider="Search_data" finished-at="2024-09-23T21:01:15Z" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAVASCRIPT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="Dark_mode()[pri:6, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:19Z" name="Dark_mode" finished-at="2024-09-23T21:01:19Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dark_mode -->
+        <test-method signature="all_nav_elements()[pri:7, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:21Z" name="all_nav_elements" finished-at="2024-09-23T21:01:22Z" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_nav_elements -->
+        <test-method signature="navbar_tutorials()[pri:8, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:22Z" name="navbar_tutorials" finished-at="2024-09-23T21:01:24Z" duration-ms="1430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar_tutorials -->
+        <test-method signature="navbar_plus()[pri:10, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:24Z" name="navbar_plus" finished-at="2024-09-23T21:01:39Z" duration-ms="15160" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/h3\[text\(\)\ \=\ \'Unlock\ Powerful\ Features\'\]\/\/\ \ preceding\ \:\:\ a\[\@href\ \=\ \'\/plus\/index\.php\'\]\ "}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f7169256030858e335feee9803432919, findElement {using=id, value=//h3[text() = 'Unlock Powerful Features']//  preceding :: a[@href = '/plus/index.php'] }]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63579}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\dharn\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63579/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7169256030858e335feee9803432919]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/h3\[text\(\)\ \=\ \'Unlock\ Powerful\ Features\'\]\/\/\ \ preceding\ \:\:\ a\[\@href\ \=\ \'\/plus\/index\.php\'\]\ "}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f7169256030858e335feee9803432919, findElement {using=id, value=//h3[text() = 'Unlock Powerful Features']//  preceding :: a[@href = '/plus/index.php'] }]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63579}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\dharn\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63579/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7169256030858e335feee9803432919
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.W3School.NavBar.navbar_plus(NavBar.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar_plus -->
+        <test-method signature="navbar_services()[pri:10, instance:com.W3School.NavBar@673be18f]" started-at="2024-09-23T21:01:39Z" name="navbar_services" finished-at="2024-09-23T21:01:41Z" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar_services -->
+      </class> <!-- com.W3School.NavBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

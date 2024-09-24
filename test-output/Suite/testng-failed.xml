@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.W3School.reRun.Transformer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="Browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="Main"/>
+        <include name="home"/>
+        <include name="navbar"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.W3School.NavBar">
+        <methods>
+          <include name="navbar_plus"/>
+        </methods>
+      </class> <!-- com.W3School.NavBar -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
